@@ -1,20 +1,11 @@
 {
-  "devDependencies": {
-    "autoprefixer": "^10.4.21",
-    "postcss": "^8.5.4",
-    "tailwindcss": "^4.1.8"
-  },
-  "name": "projeto-ext-ads3",
+  "name": "projeto-tailwind",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "npx tailwindcss -i ./styles/style.css -o ./styles/output.css --watch"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "@tailwindcss/vite": "^4.1.8"
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
   }
 }
+
